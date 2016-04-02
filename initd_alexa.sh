@@ -1,6 +1,6 @@
-#! /bin/bash
+#!/bin/bash
 
-exec > /var/log/alexa.log 2>&1 
+exec > /var/log/alexa.log 2>&1
 case "$1" in
 
 start)
